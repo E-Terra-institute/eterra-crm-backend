@@ -1,9 +1,10 @@
 from fastapi import APIRouter, Request, Depends
 from sqlalchemy.orm import Session
-from app.schemas import RequestCreate
-from app.models import Request as DBRequest
-from app.database import SessionLocal
+from schemas import RequestCreate
+from models import Request as DBRequest
+from database import SessionLocal
 import json
+
 
 router = APIRouter()
 
