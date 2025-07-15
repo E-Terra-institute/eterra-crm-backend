@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app import telegram
+import telegram
 
 app = FastAPI()
 
